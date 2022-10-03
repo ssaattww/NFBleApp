@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitsNet.ElectricPotential</name>
+    </assembly>
+    <members>
+        <member name="T:UnitsNet.ElectricPotential">
+            <inheritdoc />
+            <summary>
+                In classical electromagnetism, the electric potential (a scalar quantity denoted by Φ, ΦE or V and also called the electric field potential or the electrostatic potential) at a point is the amount of electric potential energy that a unitary point charge would have when located at that point.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.ElectricPotential._value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.ElectricPotential._unit">
+            <summary>
+                The unit this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Unit">
+            <inheritdoc />
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.#ctor(System.Double,UnitsNet.Units.ElectricPotentialUnit)">
+            <summary>
+                Creates the quantity with the given numeric value and unit.
+            </summary>
+            <param name="value">The numeric value to construct this quantity with.</param>
+            <param name="unit">The unit representation to construct this quantity with.</param>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.BaseUnit">
+            <summary>
+                The base unit of Duration, which is Second. All conversions go via this value.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.MaxValue">
+            <summary>
+            Represents the largest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.MinValue">
+            <summary>
+            Represents the smallest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Zero">
+            <summary>
+                Gets an instance of this quantity with a value of 0 in the base unit Second.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Kilovolts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Kilovolt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Megavolts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Megavolt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Microvolts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Microvolt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Millivolts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Millivolt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricPotential.Volts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Volt"/>
+            </summary>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.FromKilovolts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricPotential"/> from <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Kilovolt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.FromMegavolts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricPotential"/> from <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Megavolt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.FromMicrovolts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricPotential"/> from <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Microvolt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.FromMillivolts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricPotential"/> from <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Millivolt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.FromVolts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricPotential"/> from <see cref="F:UnitsNet.Units.ElectricPotentialUnit.Volt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.From(System.Double,UnitsNet.Units.ElectricPotentialUnit)">
+            <summary>
+                Dynamically convert from value and unit enum <see cref="T:UnitsNet.Units.ElectricPotentialUnit" /> to <see cref="T:UnitsNet.ElectricPotential" />.
+            </summary>
+            <param name="value">Value to convert from.</param>
+            <param name="fromUnit">Unit to convert from.</param>
+            <returns>ElectricPotential unit value.</returns>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.As(UnitsNet.Units.ElectricPotentialUnit)">
+            <summary>
+                Convert to the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>Value converted to the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.ToUnit(UnitsNet.Units.ElectricPotentialUnit)">
+            <summary>
+                Converts this Duration to another Duration with the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>A Duration with the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.ElectricPotential.GetValueInBaseUnit">
+            <summary>
+                Converts the current value + unit to the base unit.
+                This is typically the first step in converting from one unit to another.
+            </summary>
+            <returns>The value in the base unit representation.</returns>
+        </member>
+    </members>
+</doc>

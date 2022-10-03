@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitsNet.Temperature</name>
+    </assembly>
+    <members>
+        <member name="T:UnitsNet.Temperature">
+            <inheritdoc />
+            <summary>
+                A temperature is a numerical measure of hot or cold. Its measurement is by detection of heat radiation or particle velocity or kinetic energy, or by the bulk behavior of a thermometric material. It may be calibrated in any of various temperature scales, Celsius, Fahrenheit, Kelvin, etc. The fundamental physical definition of temperature is provided by thermodynamics.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.Temperature._value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.Temperature._unit">
+            <summary>
+                The unit this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.Value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.Unit">
+            <inheritdoc />
+        </member>
+        <member name="M:UnitsNet.Temperature.#ctor(System.Double,UnitsNet.Units.TemperatureUnit)">
+            <summary>
+                Creates the quantity with the given numeric value and unit.
+            </summary>
+            <param name="value">The numeric value to construct this quantity with.</param>
+            <param name="unit">The unit representation to construct this quantity with.</param>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="P:UnitsNet.Temperature.BaseUnit">
+            <summary>
+                The base unit of Duration, which is Second. All conversions go via this value.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.MaxValue">
+            <summary>
+            Represents the largest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.MinValue">
+            <summary>
+            Represents the smallest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.Zero">
+            <summary>
+                Gets an instance of this quantity with a value of 0 in the base unit Second.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.DegreesCelsius">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeCelsius"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.DegreesDelisle">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeDelisle"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.DegreesFahrenheit">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeFahrenheit"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.DegreesNewton">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeNewton"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.DegreesRankine">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeRankine"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.DegreesReaumur">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeReaumur"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.DegreesRoemer">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeRoemer"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.Kelvins">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.Kelvin"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.MillidegreesCelsius">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.MillidegreeCelsius"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Temperature.SolarTemperatures">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.TemperatureUnit.SolarTemperature"/>
+            </summary>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromDegreesCelsius(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeCelsius"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromDegreesDelisle(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeDelisle"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromDegreesFahrenheit(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeFahrenheit"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromDegreesNewton(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeNewton"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromDegreesRankine(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeRankine"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromDegreesReaumur(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeReaumur"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromDegreesRoemer(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.DegreeRoemer"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromKelvins(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.Kelvin"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromMillidegreesCelsius(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.MillidegreeCelsius"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.FromSolarTemperatures(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Temperature"/> from <see cref="F:UnitsNet.Units.TemperatureUnit.SolarTemperature"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Temperature.From(System.Double,UnitsNet.Units.TemperatureUnit)">
+            <summary>
+                Dynamically convert from value and unit enum <see cref="T:UnitsNet.Units.TemperatureUnit" /> to <see cref="T:UnitsNet.Temperature" />.
+            </summary>
+            <param name="value">Value to convert from.</param>
+            <param name="fromUnit">Unit to convert from.</param>
+            <returns>Temperature unit value.</returns>
+        </member>
+        <member name="M:UnitsNet.Temperature.As(UnitsNet.Units.TemperatureUnit)">
+            <summary>
+                Convert to the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>Value converted to the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.Temperature.ToUnit(UnitsNet.Units.TemperatureUnit)">
+            <summary>
+                Converts this Duration to another Duration with the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>A Duration with the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.Temperature.GetValueInBaseUnit">
+            <summary>
+                Converts the current value + unit to the base unit.
+                This is typically the first step in converting from one unit to another.
+            </summary>
+            <returns>The value in the base unit representation.</returns>
+        </member>
+    </members>
+</doc>

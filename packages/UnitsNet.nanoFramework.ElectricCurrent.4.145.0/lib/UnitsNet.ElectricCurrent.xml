@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitsNet.ElectricCurrent</name>
+    </assembly>
+    <members>
+        <member name="T:UnitsNet.ElectricCurrent">
+            <inheritdoc />
+            <summary>
+                An electric current is a flow of electric charge. In electric circuits this charge is often carried by moving electrons in a wire. It can also be carried by ions in an electrolyte, or by both ions and electrons such as in a plasma.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.ElectricCurrent._value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.ElectricCurrent._unit">
+            <summary>
+                The unit this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Unit">
+            <inheritdoc />
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.#ctor(System.Double,UnitsNet.Units.ElectricCurrentUnit)">
+            <summary>
+                Creates the quantity with the given numeric value and unit.
+            </summary>
+            <param name="value">The numeric value to construct this quantity with.</param>
+            <param name="unit">The unit representation to construct this quantity with.</param>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.BaseUnit">
+            <summary>
+                The base unit of Duration, which is Second. All conversions go via this value.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.MaxValue">
+            <summary>
+            Represents the largest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.MinValue">
+            <summary>
+            Represents the smallest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Zero">
+            <summary>
+                Gets an instance of this quantity with a value of 0 in the base unit Second.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Amperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Ampere"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Centiamperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Centiampere"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Kiloamperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Kiloampere"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Megaamperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Megaampere"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Microamperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Microampere"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Milliamperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Milliampere"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Nanoamperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Nanoampere"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.ElectricCurrent.Picoamperes">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Picoampere"/>
+            </summary>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromAmperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Ampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromCentiamperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Centiampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromKiloamperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Kiloampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromMegaamperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Megaampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromMicroamperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Microampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromMilliamperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Milliampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromNanoamperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Nanoampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.FromPicoamperes(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.ElectricCurrent"/> from <see cref="F:UnitsNet.Units.ElectricCurrentUnit.Picoampere"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.From(System.Double,UnitsNet.Units.ElectricCurrentUnit)">
+            <summary>
+                Dynamically convert from value and unit enum <see cref="T:UnitsNet.Units.ElectricCurrentUnit" /> to <see cref="T:UnitsNet.ElectricCurrent" />.
+            </summary>
+            <param name="value">Value to convert from.</param>
+            <param name="fromUnit">Unit to convert from.</param>
+            <returns>ElectricCurrent unit value.</returns>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.As(UnitsNet.Units.ElectricCurrentUnit)">
+            <summary>
+                Convert to the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>Value converted to the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.ToUnit(UnitsNet.Units.ElectricCurrentUnit)">
+            <summary>
+                Converts this Duration to another Duration with the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>A Duration with the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.ElectricCurrent.GetValueInBaseUnit">
+            <summary>
+                Converts the current value + unit to the base unit.
+                This is typically the first step in converting from one unit to another.
+            </summary>
+            <returns>The value in the base unit representation.</returns>
+        </member>
+    </members>
+</doc>

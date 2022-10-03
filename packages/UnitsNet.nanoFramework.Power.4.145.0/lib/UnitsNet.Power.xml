@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitsNet.Power</name>
+    </assembly>
+    <members>
+        <member name="T:UnitsNet.Power">
+            <inheritdoc />
+            <summary>
+                In physics, power is the rate of doing work. It is equivalent to an amount of energy consumed per unit time.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.Power._value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="F:UnitsNet.Power._unit">
+            <summary>
+                The unit this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Value">
+            <summary>
+                The numeric value this quantity was constructed with.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Unit">
+            <inheritdoc />
+        </member>
+        <member name="M:UnitsNet.Power.#ctor(System.Double,UnitsNet.Units.PowerUnit)">
+            <summary>
+                Creates the quantity with the given numeric value and unit.
+            </summary>
+            <param name="value">The numeric value to construct this quantity with.</param>
+            <param name="unit">The unit representation to construct this quantity with.</param>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="P:UnitsNet.Power.BaseUnit">
+            <summary>
+                The base unit of Duration, which is Second. All conversions go via this value.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.MaxValue">
+            <summary>
+            Represents the largest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.MinValue">
+            <summary>
+            Represents the smallest possible value of Duration
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Zero">
+            <summary>
+                Gets an instance of this quantity with a value of 0 in the base unit Second.
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.BoilerHorsepower">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.BoilerHorsepower"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.BritishThermalUnitsPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.BritishThermalUnitPerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Decawatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Decawatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Deciwatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Deciwatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.ElectricalHorsepower">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.ElectricalHorsepower"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Femtowatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Femtowatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.GigajoulesPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.GigajoulePerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Gigawatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Gigawatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.HydraulicHorsepower">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.HydraulicHorsepower"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.JoulesPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.JoulePerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.KilobritishThermalUnitsPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.KilobritishThermalUnitPerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.KilojoulesPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.KilojoulePerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Kilowatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Kilowatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.MechanicalHorsepower">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.MechanicalHorsepower"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.MegabritishThermalUnitsPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.MegabritishThermalUnitPerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.MegajoulesPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.MegajoulePerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Megawatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Megawatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.MetricHorsepower">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.MetricHorsepower"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Microwatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Microwatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.MillijoulesPerHour">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.MillijoulePerHour"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Milliwatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Milliwatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Nanowatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Nanowatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Petawatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Petawatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Picowatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Picowatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Terawatts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Terawatt"/>
+            </summary>
+        </member>
+        <member name="P:UnitsNet.Power.Watts">
+            <summary>
+                Gets a <see cref="T:System.Double"/> value of this quantity converted into <see cref="F:UnitsNet.Units.PowerUnit.Watt"/>
+            </summary>
+        </member>
+        <member name="M:UnitsNet.Power.FromBoilerHorsepower(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.BoilerHorsepower"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromBritishThermalUnitsPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.BritishThermalUnitPerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromDecawatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Decawatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromDeciwatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Deciwatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromElectricalHorsepower(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.ElectricalHorsepower"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromFemtowatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Femtowatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromGigajoulesPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.GigajoulePerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromGigawatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Gigawatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromHydraulicHorsepower(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.HydraulicHorsepower"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromJoulesPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.JoulePerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromKilobritishThermalUnitsPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.KilobritishThermalUnitPerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromKilojoulesPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.KilojoulePerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromKilowatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Kilowatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMechanicalHorsepower(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.MechanicalHorsepower"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMegabritishThermalUnitsPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.MegabritishThermalUnitPerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMegajoulesPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.MegajoulePerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMegawatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Megawatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMetricHorsepower(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.MetricHorsepower"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMicrowatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Microwatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMillijoulesPerHour(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.MillijoulePerHour"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromMilliwatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Milliwatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromNanowatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Nanowatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromPetawatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Petawatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromPicowatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Picowatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromTerawatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Terawatt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.FromWatts(System.Double)">
+            <summary>
+                Creates a <see cref="T:UnitsNet.Power"/> from <see cref="F:UnitsNet.Units.PowerUnit.Watt"/>.
+            </summary>
+            <exception cref="T:System.ArgumentException">If value is NaN or Infinity.</exception>
+        </member>
+        <member name="M:UnitsNet.Power.From(System.Double,UnitsNet.Units.PowerUnit)">
+            <summary>
+                Dynamically convert from value and unit enum <see cref="T:UnitsNet.Units.PowerUnit" /> to <see cref="T:UnitsNet.Power" />.
+            </summary>
+            <param name="value">Value to convert from.</param>
+            <param name="fromUnit">Unit to convert from.</param>
+            <returns>Power unit value.</returns>
+        </member>
+        <member name="M:UnitsNet.Power.As(UnitsNet.Units.PowerUnit)">
+            <summary>
+                Convert to the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>Value converted to the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.Power.ToUnit(UnitsNet.Units.PowerUnit)">
+            <summary>
+                Converts this Duration to another Duration with the unit representation <paramref name="unit" />.
+            </summary>
+            <returns>A Duration with the specified unit.</returns>
+        </member>
+        <member name="M:UnitsNet.Power.GetValueInBaseUnit">
+            <summary>
+                Converts the current value + unit to the base unit.
+                This is typically the first step in converting from one unit to another.
+            </summary>
+            <returns>The value in the base unit representation.</returns>
+        </member>
+    </members>
+</doc>
